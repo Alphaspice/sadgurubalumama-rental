@@ -75,9 +75,9 @@ function Footer() {
               </div>
             </li>
             <li className="social-links">
-              <a href="#"><i className="fa-brands fa-facebook"></i></a>
-              <a href="#"><i className="fa-brands fa-instagram"></i></a>
-              <a href="#"><i className="fa-brands fa-whatsapp"></i></a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook"></i></a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+              <a href="https://wa.me/9579985971" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-whatsapp"></i></a>
             </li>
           </ul>
         </div>

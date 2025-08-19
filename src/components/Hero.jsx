@@ -1,15 +1,9 @@
 import { Link } from "react-router-dom";
-// import BgShape from "../images/hero/hero-bg.png";
-import BgShape from "../images/hero/hero_background.jpg";
 import HeroCar from "../images/hero/hero_car.jpg";
 import { useEffect, useState } from "react";
 
 function Hero() {
   const [goUp, setGoUp] = useState(false);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: (0, 0), behavior: "smooth" });
-  };
 
   const bookBtn = () => {
     document
@@ -35,7 +29,6 @@ function Hero() {
     <>
       <section id="home" className="hero-section">
         <div className="container">
-          {/* <img className="bg-shape" src={BgShape} alt="bg-shape" /> */}
           <div className="hero-content">
             <div className="hero-content__text">
               <h4>Plan your trip now</h4>

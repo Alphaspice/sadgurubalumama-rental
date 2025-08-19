@@ -1,5 +1,4 @@
 import baleno from "../images/cars-big/baleno.png";
-import vento_2017 from "../images/cars-big/vento_2017.png";
 import Ertiga_2018 from "../images/cars-big/Ertiga.png";
 import swift_2017 from "../images/cars-big/Swift.png";
 import tempo_traveller_2023 from "../images/cars-big/tempo_traveller.png";
