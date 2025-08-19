@@ -1,30 +1,13 @@
 import { Link } from "react-router-dom";
 import HeroCar from "../images/hero/hero_car.jpg";
-import { useEffect, useState } from "react";
 
 function Hero() {
-  const [goUp, setGoUp] = useState(false);
-
   const bookBtn = () => {
     document
       .querySelector("#booking-section")
       .scrollIntoView({ behavior: "smooth" });
   };
 
-  useEffect(() => {
-    const onPageScroll = () => {
-      if (window.pageYOffset > 600) {
-        setGoUp(true);
-      } else {
-        setGoUp(false);
-      }
-    };
-    window.addEventListener("scroll", onPageScroll);
-
-    return () => {
-      window.removeEventListener("scroll", onPageScroll);
-    };
-  }, []);
   return (
     <>
       <section id="home" className="hero-section">
@@ -61,14 +44,6 @@ function Hero() {
             />
           </div>
         </div>
-
-        {/* page up */}
-        {/* <div
-          onClick={scrollToTop}
-          className={`scroll-up ${goUp ? "show-scroll" : ""}`}
-        >
-          <i className="fa-solid fa-angle-up"></i>
-        </div> */}
       </section>
     </>
   );
