@@ -38,12 +38,12 @@ function Contact() {
               <a href="tel:7218584951">
                 <i className="fa-solid fa-phone"></i>&nbsp; (+91) 7218584951
               </a>
-              <a href="tel:7447411341">
-                <i className="fa-solid fa-phone"></i>&nbsp; (+91) 7447411341
+              <a href="tel:8600967082">
+                <i className="fa-solid fa-phone"></i>&nbsp; (+91) 8600967082
               </a>
-              <a href="mailto:anil.kokare951@gmail.com">
+              <a href="mailto:Ganeshsarak53@gmail.com">
                 <i className="fa-solid fa-envelope"></i>&nbsp;
-                anil.kokare951@gmail.com
+                Ganeshsarak53@gmail.com
               </a>
               <a href="/">
                 <i className="fa-solid fa-location-dot"></i>Godrej 24, Hinjawadi Phase 1 Rd, Phase 1, Hinjawadi Rajiv Gandhi Infotech Park, Hinjawadi, Pune, Pimpri-Chinchwad, Maharashtra 411057.
@@ -89,7 +89,7 @@ function Contact() {
               <span>
                 <i className="fa-solid fa-phone"></i>
                 <h3>(+91) 7218584951</h3>
-                <h3>(+91) 7447411341</h3>
+                <h3>(+91) 8600967082</h3>
               </span>
             </div>
           </div>

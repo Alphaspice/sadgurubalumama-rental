@@ -16,13 +16,13 @@ function Footer() {
               <a href="tel:+917218584951">
                 <i className="fa-solid fa-phone"></i> (+91) 7218584951
               </a>
-              <a href="tel:+917447411341">
-                <i className="fa-solid fa-phone"></i> (+91) 7447411341
+              <a href="tel:+918600967082">
+                <i className="fa-solid fa-phone"></i> (+91) 8600967082
               </a>
             </li>
             <li>
-              <a href="mailto:anil.kokare951@gmail.com">
-                <i className="fa-solid fa-envelope"></i> anil.kokare951@gmail.com
+              <a href="mailto:Ganeshsarak53@gmail.com">
+                <i className="fa-solid fa-envelope"></i> Ganeshsarak53@gmail.com
               </a>
             </li>
             <li className="footer-managed">
