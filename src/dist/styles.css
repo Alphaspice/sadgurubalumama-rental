@@ -76,7 +76,7 @@ body {
   margin: 0 auto;
 }
 .navbar__img {
-  width: 14.5rem;
+  width: 10.5rem;
 }
 .navbar__img img {
   width: 100%;
@@ -153,6 +153,10 @@ body {
 @media (max-width: 1000px) {
   .mobile-hamb {
     display: flex;
+    align-items: center;
+    font-size: 3.2rem;
+    margin-left: 1rem;
+    z-index: 100000;
   }
 }
 
@@ -1542,12 +1546,12 @@ footer {
   left: 0;
   width: 0%;
   height: 2px;
-  background: #22A7F0;
+  background: #22a7f0;
   transition: width 0.3s ease;
 }
 
 .footer-col a:hover {
-  color: #22A7F0;
+  color: #22a7f0;
   transform: translateX(4px);
 }
 
@@ -1557,7 +1561,7 @@ footer {
 
 /* Icons in links */
 .footer-col a i {
-  color: #22A7F0;
+  color: #22a7f0;
   font-size: 1.1rem;
   transition: transform 0.3s ease;
 }

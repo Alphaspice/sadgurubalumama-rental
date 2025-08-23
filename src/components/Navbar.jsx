@@ -30,51 +30,11 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar__img">
             <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 600 150"
-                width="250"
-                height="80"
-                style={{ display: "block" }}
-              >
-                {/* Car Outline */}
-                <path
-                  d="M80 80 C160 20, 440 20, 520 80"
-                  stroke="#e67e22"
-                  strokeWidth="6"
-                  fill="transparent"
-                  strokeLinecap="round"
-                />
-                {/* Wheels */}
-                <circle cx="160" cy="100" r="14" fill="#2c3e50" />
-                <circle cx="440" cy="100" r="14" fill="#2c3e50" />
-
-                {/* Company Name inside the car */}
-                <text
-                  x="300"
-                  y="80"
-                  fontFamily="Poppins, sans-serif"
-                  fontSize="24"
-                  fontWeight="bold"
-                  fill="#2c3e50"
-                  textAnchor="middle"
-                >
-                  Sadguru Balumama
-                </text>
-
-                {/* Tagline just below */}
-                <text
-                  x="300"
-                  y="115"
-                  fontFamily="Poppins, sans-serif"
-                  fontSize="24"
-                  fontWeight="500"
-                  fill="#e67e22"
-                  textAnchor="middle"
-                >
-                  Car Rental
-                </text>
-              </svg>
+              <img
+                src={process.env.PUBLIC_URL + "/icons/logo.png"}
+                alt="Sadguru Balumama Car Rental Logo"
+                style={{ display: "block", objectFit: "contain" }}
+              />
             </Link>
           </div>
 
